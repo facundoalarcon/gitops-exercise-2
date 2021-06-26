@@ -23,3 +23,6 @@ urlpatterns = [
     url(r'^api/', include('conduit.apps.authentication.urls', namespace='authentication')),
     url(r'^api/', include('conduit.apps.profiles.urls', namespace='profiles')),
 ]
+
+def sum(a,b):
+  return a+b
